@@ -60,3 +60,21 @@ else:
             break
         else: 
             print('i dont understand')
+
+
+for x in range(4):
+    for y in range(3):
+        print(f'({x} , {y})')
+
+numbers = [5 , 2 , 5 , 2 , 2]
+
+for x in numbers:
+    print('X' * x)
+
+lists = [5 , 8 , 9 , 10 , 1 , 2 , 3]
+Big = 0
+for x in lists:
+    if int(x) > int(Big):
+        Big = x
+
+print(Big)
