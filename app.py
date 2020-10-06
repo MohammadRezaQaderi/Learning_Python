@@ -106,3 +106,17 @@ def square(number):
     return(number * number)
 
 print(square(5))
+
+# Class in python
+
+class Point:
+   # method
+    def move(self):
+        print('move')
+    def draw(self):
+        print('draw')
+
+point1 = Point()
+# make the atribute for point1 
+point1.x = 10
+print(point1.x)
