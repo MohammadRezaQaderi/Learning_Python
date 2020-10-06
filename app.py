@@ -76,5 +76,11 @@ Big = 0
 for x in lists:
     if int(x) > int(Big):
         Big = x
-
 print(Big)
+
+lists_1 = [1 , 5 , 4 , 7 , 5 , 6 , 1 , 1  , 2 , 1]
+uniq = []
+for x in lists_1:
+    if x not in uniq:
+        uniq.append(x)
+print(uniq)
