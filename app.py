@@ -99,3 +99,10 @@ for x in lists_1:
     if x not in uniq:
         uniq.append(x)
 print(uniq)
+
+# Def the function
+
+def square(number):
+    return(number * number)
+
+print(square(5))
