@@ -110,13 +110,19 @@ print(square(5))
 # Class in python
 
 class Point:
+    #constructor
+    def __init__(self , x , y):
+        self.x = x
+        self.y = y
+
    # method
     def move(self):
         print('move')
     def draw(self):
-        print('draw')
+        print(f'draw {self.x}')
 
-point1 = Point()
+point1 = Point( 10 , 12 )
 # make the atribute for point1 
-point1.x = 10
+point1.allah = 'allah'
 print(point1.x)
+point1.draw()
