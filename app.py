@@ -18,6 +18,10 @@ import Dice
 
 import random
 
+
+from pathlib import Path
+
+
 for i in range(3):
     print(random.random())
 
@@ -180,3 +184,11 @@ print(lbs_to_kg(450))
 lists1 = [5 , 4 , 9 , 7 , 8 , 5 , 45 ,0 , 4]
 
 print(find_max(lists1))
+
+path = Path()
+#path.mkdir()
+#path.rmdir()
+
+# (*.*) for file
+for file in path.glob('*'):
+    print(file)
