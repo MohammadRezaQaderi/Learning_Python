@@ -4,6 +4,7 @@ import converter
 # import the method or class that we need
 from converter import lbs_to_kg 
 
+from utils import find_max
 # Print in Phyton
 print('*' * 15)
 
@@ -156,3 +157,8 @@ print(converter.kg_to_lbs(50))
 
 # use the imported method or class or ...
 print(lbs_to_kg(450))
+
+
+lists1 = [5 , 4 , 9 , 7 , 8 , 5 , 45 ,0 , 4]
+
+print(find_max(lists1))
