@@ -1,3 +1,9 @@
+# import all file 
+import converter
+
+# import the method or class that we need
+from converter import lbs_to_kg 
+
 # Print in Phyton
 print('*' * 15)
 
@@ -143,3 +149,10 @@ class Cat(Mammal):
 
 Mammal1 = Dog()
 Mammal1.walk()
+
+
+# use the imported file
+print(converter.kg_to_lbs(50))
+
+# use the imported method or class or ...
+print(lbs_to_kg(450))
