@@ -5,6 +5,16 @@ import converter
 from converter import lbs_to_kg 
 
 from utils import find_max
+
+# 2 way to import the pacakges in python
+
+import ecommerce.shipping
+
+# or the better way
+from ecommerce.shipping import calc_shipping 
+ 
+
+
 # Print in Phyton
 print('*' * 15)
 
