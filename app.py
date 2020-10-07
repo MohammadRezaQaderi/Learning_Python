@@ -14,6 +14,11 @@ import ecommerce.shipping
 from ecommerce.shipping import calc_shipping 
  
 
+import random
+
+for i in range(3):
+    print(random.random())
+
 
 # Print in Phyton
 print('*' * 15)
