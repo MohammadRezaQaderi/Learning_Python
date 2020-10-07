@@ -12,12 +12,15 @@ import ecommerce.shipping
 
 # or the better way
 from ecommerce.shipping import calc_shipping 
- 
+
+import Dice
+
 
 import random
 
 for i in range(3):
     print(random.random())
+
 
 
 # Print in Phyton
