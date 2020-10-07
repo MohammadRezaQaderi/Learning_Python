@@ -126,3 +126,20 @@ point1 = Point( 10 , 12 )
 point1.allah = 'allah'
 print(point1.x)
 point1.draw()
+
+# Inheritance 
+
+class Mammal:
+    def walk(self):
+        print('walk')
+
+class Dog(Mammal):
+    # It means pass this line to interpreter
+    pass
+
+class Cat(Mammal):
+    def be_annoying(self):
+        print("ME U")
+
+Mammal1 = Dog()
+Mammal1.walk()
